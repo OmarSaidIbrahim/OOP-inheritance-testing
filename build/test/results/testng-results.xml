@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-24T17:45:12Z" name="Coursework3_Omar" finished-at="2021-01-24T17:45:13Z" duration-ms="280">
+    <groups>
+    </groups>
+    <test started-at="2021-01-24T17:45:12Z" name="coursework3_omar.InfoTest" finished-at="2021-01-24T17:45:13Z" duration-ms="280">
+      <class name="coursework3_omar.InfoTest">
+        <test-method signature="testAddData()" started-at="2021-01-24T17:45:13Z" name="testAddData" finished-at="2021-01-24T17:45:13Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddData -->
+        <test-method signature="testDeleteDataById()" started-at="2021-01-24T17:45:13Z" name="testDeleteDataById" finished-at="2021-01-24T17:45:13Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteDataById -->
+        <test-method signature="testGetId()" started-at="2021-01-24T17:45:13Z" name="testGetId" finished-at="2021-01-24T17:45:13Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetId -->
+        <test-method signature="testGetDataInfo()" started-at="2021-01-24T17:45:13Z" name="testGetDataInfo" finished-at="2021-01-24T17:45:13Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDataInfo -->
+        <test-method signature="testPrintData()" started-at="2021-01-24T17:45:13Z" name="testPrintData" finished-at="2021-01-24T17:45:13Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrintData -->
+        <test-method signature="testGetData()" started-at="2021-01-24T17:45:13Z" name="testGetData" finished-at="2021-01-24T17:45:13Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetData -->
+        <test-method signature="testCheckDataId()" started-at="2021-01-24T17:45:13Z" name="testCheckDataId" finished-at="2021-01-24T17:45:13Z" duration-ms="78" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<false> but was:<true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<false> but was:<true>
+at org.junit.Assert.fail(Assert.java:88)
+at org.junit.Assert.failNotEquals(Assert.java:834)
+at org.junit.Assert.assertEquals(Assert.java:118)
+at org.junit.Assert.assertEquals(Assert.java:144)
+at coursework3_omar.InfoTest.testCheckDataId(InfoTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:82)
+at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:70)
+at org.testng.TestRunner$1.run(TestRunner.java:570)
+at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:717)
+at org.testng.TestRunner.privateRunJUnit(TestRunner.java:601)
+at org.testng.TestRunner.run(TestRunner.java:502)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckDataId -->
+        <test-method signature="testGetDataArray()" started-at="2021-01-24T17:45:13Z" name="testGetDataArray" finished-at="2021-01-24T17:45:13Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDataArray -->
+        <test-method signature="testEditDataById()" started-at="2021-01-24T17:45:13Z" name="testEditDataById" finished-at="2021-01-24T17:45:13Z" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditDataById -->
+        <test-method signature="testDataIndexInArray()" started-at="2021-01-24T17:45:13Z" name="testDataIndexInArray" finished-at="2021-01-24T17:45:13Z" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataIndexInArray -->
+      </class> <!-- coursework3_omar.InfoTest -->
+    </test> <!-- coursework3_omar.InfoTest -->
+  </suite> <!-- Coursework3_Omar -->
+</testng-results>

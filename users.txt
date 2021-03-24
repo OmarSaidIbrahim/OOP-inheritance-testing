@@ -1,0 +1,3 @@
+omar@test.com-test1-omar-574-Client-Share data.Print data-St.mary
+nick@test.com-test2-nick-983-External-Print data-UWL
+nasser@test.com-test3-nasser-264-HnKEmployee-Share data.Print data.Edit data by ID.Insert new data.Delete data by ID.-communication,teaching,engineering-IT

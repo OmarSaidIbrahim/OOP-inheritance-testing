@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Coursework3_Omar]">
+  <test junit="true" thread-count="5" name="coursework3_omar.InfoTest(failed)">
+    <classes>
+      <class name="org.junit.runner.Description">
+        <methods>
+          <include name="testCheckDataId"/>
+        </methods>
+      </class> <!-- org.junit.runner.Description -->
+    </classes>
+  </test> <!-- coursework3_omar.InfoTest(failed) -->
+</suite> <!-- Failed suite [Coursework3_Omar] -->
